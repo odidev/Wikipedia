@@ -13,5 +13,4 @@ install:
   - pip install -q requests==$REQUESTS
   - pip install -r requirements.txt
   - pip install -e .
-  - uname -m
 script: python -m unittest discover tests/ '*test.py'
